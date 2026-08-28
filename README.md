@@ -25,7 +25,7 @@ I recently built an automated ALB (Application Load Balancer) and ECS (Elastic C
 
 This application stack is deployed locally using two load balancers deployed across two availability zones (AZ) managing a serverless AWS-managed container orchestration service with a desired maintenance count of two web server containers.
 
-![[elb_ecs_lab_dm.svg](./docs/screenshots/elb_ecs_lab_dm.svg)]
+![elb_ecs_lab_dm.svg](./docs/screenshots/elb_ecs_lab_dm.svg)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
@@ -88,13 +88,13 @@ The provisioning and application deployment is fully automated locally via Terra
 *The red highlighted sections are separate sanitized screenshots of the successful ECS Service dashboard, Load Balancer Target Group dashboard, and the output of the two traefik/whoami hosted containers.*
 ### ECS Service
 
-![[ecs_service.png](./docs/screenshots/ecs_service.png)]
+![ecs_service.png](./docs/screenshots/ecs_service.png)
 ### Load Balancer Target Group
 
-![[lb_tg.png](./docs/screenshots/lb_tg.png)]
+![lb_tg.png](./docs/screenshots/lb_tg.png)
 ### Container Output
 
-![[load_balancer_output.png](./docs/screenshots/load_balancer_output.png)]
+![load_balancer_output.png](./docs/screenshots/load_balancer_output.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
